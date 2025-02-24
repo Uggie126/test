@@ -1,0 +1,15 @@
+@media (max-width: 1023px) {
+    .map-container {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1024px) {
+.map-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+}

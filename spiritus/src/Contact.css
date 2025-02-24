@@ -1,0 +1,27 @@
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.contact-section a {
+    color: inherit;
+    text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+.contact-section footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.contact-section {
+    justify-content: end;
+    gap: 2rem;
+    padding-right: 1.85rem;
+}
+}

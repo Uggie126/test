@@ -1,0 +1,38 @@
+.opening-hours {
+    padding: 5%;
+    min-width: 80%;
+    max-width: 80%;
+    background-color: #111;
+    margin-left: 5%;
+  }
+  
+  .opening-hours p {
+    margin-top: -3%;
+    color: #cfcfcf;
+    margin-bottom: 1rem;
+  }
+  
+  .opening-hours ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .opening-hours-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+  }
+  
+  .opening-hours-item:last-child {
+    border-bottom: none;
+  }
+  
+  .day {
+    font-weight: bold;
+    color: #fdfdfd;
+  }
+  
+  .time {
+    color: #ffffff;
+  }  

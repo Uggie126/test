@@ -1,0 +1,66 @@
+.menu-section {
+    position: sticky;
+    top: 0;
+    padding-bottom: 40vh;
+}
+
+.menu-nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 1.75vh;
+}
+
+.menu-nav button {
+    color: rgb(120, 120, 120);
+    background-color: #000;
+    font-family: "Oswald";
+    border-style: none;
+    font-size: medium;
+}
+
+.menu-content {
+    min-height: 40vh;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.menu-content::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+.menu-content ul{
+    list-style: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+    background-color: #111;
+}
+
+.menu-item .wine-span{
+    width: 75%;
+}
+
+.menu-item:nth-child(even) {
+    background-color: #000;
+}
+
+.menu-nav .active {
+    color: white;
+    font-size: larger;
+}
+
+@media (min-width: 1024px) {
+    .menu-section {
+        padding-bottom: 1vh;
+    }
+}

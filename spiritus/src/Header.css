@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #000;
+}
+
+.logo {
+    height: 8rem;
+}
+
+.contact-btn {
+    color: rgb(120, 120, 120);
+    background-color: #000;
+    align-self: flex-start;
+    font-family: "Oswald";
+    border-style: none;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 1023px) {
+    .contact-btn {
+        display: none;
+    }
+}
